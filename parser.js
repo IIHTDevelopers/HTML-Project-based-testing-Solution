@@ -50,6 +50,7 @@ function checkHtmlTags(htmlContent, requiredTags) {
 
     requiredTags.forEach(tag => {
         const tagFound = dom.window.document.getElementsByTagName(tag).length > 0;
+        console.log(tag, " found result : ", tagFound);
         results[tag] = tagFound ? 'pass' : 'fail';
     });
 
