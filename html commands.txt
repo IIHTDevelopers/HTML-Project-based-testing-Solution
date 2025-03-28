@@ -20,4 +20,4 @@
 	localhost:5500/index.html
 	=========================
 
-	node customParser.js
+	node parser.js
